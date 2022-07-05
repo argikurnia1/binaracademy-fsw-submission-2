@@ -4,7 +4,7 @@
 
 ### 👷 Developed by Argi Kurnia
 
-### 📝 Approved Submission By Binar Academy
+### 📝 Approved Submission By Binaracademy
 
 ### ⚙ All Script Files
 
@@ -26,6 +26,7 @@
 
 - HTML
 - CSS
+- Bootstrap
 - Javascript
 
 ## 💡 Tips
