@@ -198,7 +198,7 @@ html {
   color: var(--color2);
 }
 
-.hero-intro button {
+.hero-intro a {
   border: none;
   background-color: var(--color3);
   cursor: pointer;
@@ -208,6 +208,11 @@ html {
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   color: var(--color4);
+  text-decoration: none;
+}
+
+.hero-intro a:hover {
+  color: rgba(26, 25, 23, 0.8);
 }
 
 .action-story {
@@ -513,13 +518,21 @@ html {
   color: var(--color2);
 }
 
-.tops-intro button {
+.tops-intro a {
+  display: inline-block;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
+  font-weight: 700;
+  color: var(--color4);
+  text-decoration: none;
   margin-top: 1.5rem;
   border: none;
   background-color: var(--color3);
   padding: 1.125rem 5rem;
+}
+
+.tops-intro a:hover {
+  color: rgba(26, 25, 23, 0.8);
 }
 
 .tops-intro p {
